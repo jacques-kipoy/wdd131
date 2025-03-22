@@ -1,0 +1,44 @@
+@media screen and (min-width: 500px){
+    h1 {
+            text-align: center;
+            background-color: rgba(84, 131, 219, 0.5);
+        }
+
+}
+
+
+* {
+    padding: 10px;
+}
+
+header,
+main,
+footer {
+    max-width: 640px;
+}
+
+section {
+    border: 10px solid rgba(84, 131, 219, 0.5);
+    max-width: 640px;
+
+}
+
+header {
+    margin-bottom: 20px;
+
+}
+
+
+.my-name {
+    background-color: rgba(84, 131, 219, 0.5);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: 1rem; */
+}
